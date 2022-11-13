@@ -36,7 +36,7 @@ export const Search = () => {
             })
 
             setLoading(false)
-        }, 2000)
+        }, 1000)
         
         handleClick()
     }

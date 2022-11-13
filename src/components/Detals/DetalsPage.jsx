@@ -19,12 +19,9 @@ export const DetalsPage = () => {
             const getRepositories = await repositories(login)
             setData(getUser)
             setRepos(getRepositories)
-
-            console.log(getRepositories)
         }
         
         setTimeout(fetchData, 1000)
-        //fetchData()
     }, [])
 
     return (
